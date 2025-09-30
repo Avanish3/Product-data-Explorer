@@ -1,1 +1,21 @@
 
+{
+  "navigation": ["home", "categories", "products"],
+  "categories": [
+    { "id": "c1", "slug": "electronics", "name": "Electronics" },
+    { "id": "c2", "slug": "fashion", "name": "Fashion" }
+  ],
+  "products": [
+    { "id": "p1", "name": "Smartphone", "category_id": "c1" },
+    { "id": "p2", "name": "Laptop", "category_id": "c1" },
+    { "id": "p3", "name": "T-Shirt", "category_id": "c2" }
+  ],
+  "product_details": [
+    { "product_id": "p1", "description": "A powerful smartphone" },
+    { "product_id": "p2", "description": "A high-performance laptop" }
+  ],
+  "reviews": [
+    { "product_id": "p1", "rating": 5, "comment": "Great phone!" },
+    { "product_id": "p2", "rating": 4, "comment": "Good laptop" }
+  ]
+}
